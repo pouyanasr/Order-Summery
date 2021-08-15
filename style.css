@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  background-color: #E0E8FF;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900;
+  font-size: 1.8rem;
+  margin-top: 10%;
+}
+
+h3 {
+  margin: 2px 0 0 3px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: grey;
+  width: 70%;
+  margin: auto;
+  line-height: 1.7;
+  margin-bottom: 5%;
+}
+
+.background-top {
+  position: absolute;
+  width: 2000px;
+  height: 440px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.main {
+  position: relative;
+  margin: auto;
+  margin-top: 100px;
+  width: 450px;
+  border-radius: 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.main-img {
+  border-radius: 20px 20px 0 0;
+}
+
+.anual {
+  position: relative;
+  background-color: #FCF9FF;
+  width: 350px;
+  height: 100px;
+  border-radius: 20px;
+  margin: auto;
+}
+
+.icon {
+  position: absolute;
+  top: 25px;
+  left: 20px;
+}
+
+.anual-plan {
+  position: absolute;
+  top: 23px;
+  right: 75px;
+  bottom: 0;
+  left: 0;
+}
+
+.change {
+  position: absolute;
+  top: 40px;
+  left: 270px;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.change:hover {
+  text-decoration: none;
+  color: hsl(245, 75%, 52%);
+}
+
+.payment-btn {
+  margin-top: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 10px;
+  height: 0;
+  line-height: 0;
+  color: #FFFFFF;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 500;
+  width: 297px;
+  font-size: 17px;
+  padding: 27px;
+  background-color: #3829E0;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.payment-btn:hover {
+  background: #6659F3;
+  border: solid #7E74F3 1px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.cancel-bnt {
+  display: inline-block;
+  margin: 40px auto;
+  text-decoration: none;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 700;
+  color: grey;
+}
+
+.cancel-bnt:hover {
+  color: #000;
+}
+
+/* /////for mobile//// */
+
+@media(max-width:375px) {
+  .background-top {
+    visibility: hidden;
+  }
+}
